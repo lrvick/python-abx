@@ -1,0 +1,13 @@
+2006-06-19  Артём Попов  <artfwo@gmail.com>
+
+	* Released version 0.2
+
+2006-06-19  Артём Попов  <artfwo@gmail.com>
+
+	* Looper.py: seeking is now fixed
+	* Looper.py: will not play video from now
+	* Cosmetic changes here and there
+
+2006-04-14  Артём Попов  <artfwo@gmail.com>
+
+	* Initial release
