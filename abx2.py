@@ -319,21 +319,18 @@ class AbxComparator:
 # set window icon
 gtk.window_set_default_icon_from_file("abx-comparator.svg")
 
+a, b = None, None
 # if we have at least 2 arguments, go ahead and set file A
 if 2 < len(sys.argv) <= 3:
     a = sys.argv[1]
     if not gst.uri_is_valid(a):
         a = "file://" + os.path.abspath(a)
-else:
-    a = None
 
 # and if we have 3, set file B as well
 if len(sys.argv) == 3:
     b = sys.argv[2]
     if not gst.uri_is_valid(b):
         b = "file://" + os.path.abspath(b)
-else:
-    b = None
 
 # define the app class
 app = AbxComparator(a, b)
