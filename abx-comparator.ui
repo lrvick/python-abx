@@ -158,7 +158,6 @@
                     <property name="tooltip_markup" translatable="yes">Repeat playback</property>
                     <property name="tooltip_text">Repeat playback</property>
                     <property name="use_action_appearance">False</property>
-                    <signal name="toggled" handler="_on_repeat_button_toggled" swapped="no"/>
                     <child>
                       <object class="GtkAlignment" id="alignment1">
                         <property name="can_focus">False</property>
