@@ -9,7 +9,7 @@
   <object class="GtkWindow" id="abx_audio_window">
     <property name="can_focus">False</property>
     <property name="border_width">12</property>
-    <property name="title">ABX Comparator</property>
+    <property name="title">python-abx</property>
     <property name="resizable">False</property>
     <property name="icon">abx-comparator.svg</property>
     <property name="startup_id">abx_window</property>
