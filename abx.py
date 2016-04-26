@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
 import sys
@@ -217,7 +217,7 @@ class AbxComparator:
 
         tempPlayer.set_state(gst.STATE_NULL)
 
-        print location, duration
+        print(location, duration)
         return duration
 
     def update_gui(self, *args):
